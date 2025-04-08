@@ -22,7 +22,7 @@ public class Pedido {
         this.cliente = cliente;
         this.dataHora = LocalDateTime.now();
         this.itens = new ArrayList<>();
-        this.finalizado = false
+        this.finalizado = false;
     }
 
     /**
@@ -78,7 +78,7 @@ public class Pedido {
             this.preco = preco;
             this.quantidade = quantidade;
         }
-        
+
         public String getDescricao(){
             return descricao;
         }
